@@ -1,4 +1,5 @@
-    
+
+
     const form = document.querySelector('.calcimc'); // Seleciona o formulário no arquivo html
     const mensagem = document.querySelector('.mensagem'); // Seleciona a div mensagem, para imprimir no html um texto posteriormente
     
@@ -16,15 +17,15 @@
     // Função para classificar o individuo em uma das faixas de imc
     function definirCategoria(imc) {
         if (imc <= 18.5) {
-            return `Seu IMC é de ${imc.toFixed(2)}, Abaixo do normal, estado de desnutrição`;
+            return `Seu IMC é de ${imc.toFixed(2)}, Abaixo do normal, estado de desnutrição.`;
         } else if (imc <= 24.9) {
             return `Seu IMC é de ${imc.toFixed(2)}, Normal.`;
         } else if (imc <= 29.9) {
             return `Seu IMC é de ${imc.toFixed(2)}, Sobrepeso. comece a realizar exercícios físicos.`;
         } else if (imc <= 34.9) {
-            return `Seu IMC é de ${imc.toFixed(2)}, Obesidade grau I. Sinal de alerta!, procure um nutricionista`;
+            return `Seu IMC é de ${imc.toFixed(2)}, Obesidade grau I. Procure um nutricionista`;
         } else if (imc <= 39.9) {
-            return `Seu IMC é de ${imc.toFixed(2)}, Obesidade grau II`;
+            return `Seu IMC é de ${imc.toFixed(2)}, Obesidade grau II.`;
         } else {
             return `Seu IMC é de ${imc.toFixed(2)}, Obesidade grau III.`;
         }
