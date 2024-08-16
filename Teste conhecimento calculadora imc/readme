@@ -1,0 +1,8 @@
+Projeto calculadora imc 
+trata-se de uma calculadora criada utilizando html + css + javascript
+Ela retorna o calculo do imc acrescido do nivel de obesidade e recomendação
+
+Tem as seguintes validações:
+valores inseridos tem de ser > 0
+faz a conversão da altura caso o usuário coloque a altura em cm
+
