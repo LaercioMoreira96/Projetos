@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: #e0e0e0;
+}
+
+
+.navbar{
+    background-color: #3a3939;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+
+
+}
+
+
+
+.logo{
+    display: flex;
+    flex: 30%;
+    justify-content: center;
+    justify-content: left;
+    
+}
+
+.logo h1{
+    color: rgb(255, 255, 255);
+    font-family: "Lobster", sans-serif;
+    font-size: 40px;
+    margin-left: 60px;
+    
+
+}
+
+.logo h1:hover{
+    color: #107e1b;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.menu{
+    display: flex;
+    flex: 50%;
+    list-style: none;
+    justify-content: right;
+    margin-right: 30px;
+}
+
+
+.menu li a{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+.menu li a:hover{
+    border-bottom: 2px solid black;
+    color:#107e1b;
+    transition: .3s;
+    padding-bottom: 10px;
+}
+
+.botoes{
+    
+    display: flex;
+    flex: 20%;
+    justify-content: left;
+}
+
+.loginbtn{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px 40px;
+    border: 0px;
+    background-color:#79777740; 
+    border-radius: 2px;
+    
+}
+
+.loginbtn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.loginbtn:hover{
+    background-color: #107e1b;
+    cursor:pointer;
+    transition: .3s;
+}
+
+.cadastrobtn{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px 40px;
+    margin-right:10px;
+    margin-left: 5px;
+    border: 0px;
+    color: white;
+    background-color:#79777740; 
+    border-radius: 2px;
+
+    
+}
+    
+
+
+
+.cadastrobtn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+
+.cadastrobtn:hover{
+    background: #107e1b;
+    cursor:pointer;
+    transition: .3s;
+}
+
+header{
+    padding: 100px;
+    height: 600px;
+    background-color: #e6dadc;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+header h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Signika Negative", sans-serif;
+    color:white;
+    padding-top:5%;
+}
+
+
+
+.destaque{
+    color:#e92a2a;
+}
+
+
+.saibamaisbtn{
+    margin-top: 40px;
+    padding: 15px 30px;
+    border: 0px;
+    background-color: #222121;
+    border-radius: 5px;
+    font-family: "Signika Negative", sans-serif;
+
+
+}
+
+
+.saibamaisbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.saibamaisbtn:hover{
+    background-color: #107e1b;
+    transition: .3s;
+    cursor:pointer;
+}
+
+section{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    font-family: "Signika Negative", sans-serif;
+}
+
+.servicos{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card{
+    max-width: 352px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px #333333aa;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card a{
+    text-decoration: none;
+    color: #464646;
+}
+
+.card h3{
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h4{
+    margin: 4%;
+}
+
+.card img {
+    max-width: 100%; 
+    height: 40%; 
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+    height: auto;
+    transition: .5s;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+.artigos{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    height: 600px;
+    text-align: center;
+    
+}
+
+.artigos h2{
+    text-align: center;
+    
+    
+}
+
+
+.bloco2{
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px #333333aa;
+    margin-left: 10px;
+}
+
+.bloco2 p{
+    text-align: left;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #222121;
+    
+    
+}
+
+footer h4{
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+
+
+.leiamais{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 0px;
+    background-color: #222121;
+    border-radius: 5px;
+    font-family: "Signika Negative", sans-serif;
+    
+
+}
+
+
+.leiamais a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.leiamais:hover{
+    background-color: #107e1b;
+    transition: .3s;
+    cursor:pointer;
+    
+}
